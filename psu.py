@@ -7,7 +7,7 @@ def mkdir(*args):
     except:
         return 
 
-def ls(path):
+def ls(path='.'):
     return os.listdir(path)
 
 def cd(path):
