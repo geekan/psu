@@ -1,0 +1,1 @@
+for i in `sed -nE 's/def (.*)\(.*/\1/p' psu.py`; do touch ${i}.py; done
